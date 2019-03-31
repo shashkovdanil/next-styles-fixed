@@ -1,0 +1,26 @@
+{
+  "name": "next-css-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shashkov Danil <shashkovdanil@gmail.com> (https://github.com/shashkovdanil)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.2-canary.2",
+    "next": "^8.0.4-canary.30",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "postcss-preset-env": "^6.6.0",
+    "precss": "^4.0.0",
+    "sugarss": "^2.0.0"
+  }
+}
